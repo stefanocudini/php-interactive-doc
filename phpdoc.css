@@ -1,0 +1,112 @@
+body {
+  color: #000;
+  background-color: #999;
+  margin: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size:0.8em;
+}
+#log {
+  background-color: #bbb;
+  color:#333;
+  position: fixed;
+  top:25px;
+  right:5px;
+  padding:5px;
+  -moz-border-radius: 0.4em;
+  -webkit-border-radius: 0.4em;
+  border-radius: 0.4em; 
+}
+.opts {
+  float:left;
+  border-left: #666 1px solid;
+  padding: 0 1em .25em .5em;
+}
+.opts.first {border:none}
+.opts.first label {line-height:2.5em}
+.opts label {line-height:.5em}
+#code {
+  border: #bbb 2px solid;
+  width: 200px;
+  padding:0 3px 2px 3px;
+  -moz-border-radius: 0.4em;
+  -webkit-border-radius: 0.4em;
+  border-radius: 0.4em;
+  font-size:1.4em;
+  vertical-align:middle;
+  background:#fff;
+}
+#code.loading {background: url('loading.gif') center right no-repeat #fff;}
+
+#tooltips {
+  background-color: #999;
+  width: 100%;
+  position: relative;
+  clear:both;
+  padding:10px 0;
+}
+
+#tooltips b {  /*nome*/
+  color: #3333FF;
+}
+#tooltips strong {  /*return*/
+  margin-right:60px;
+}
+#tooltips p {margin:0}
+#tooltips div { /*box*/
+  border: #bbb 2px solid;
+  float:left;
+  margin:3px;
+  padding:4px;
+  background-color:#ccc;  
+  -moz-border-radius: .8em;
+  -webkit-border-radius: .8em;
+  border-radius: .8em;
+  position: relative;
+}
+#tooltips em { /*prototipo*/
+  color: #CC0000;
+}
+#tooltips i {
+font-size: small;
+font-style:normal;
+}
+#tooltips u {
+  background-color: #FFFFCC;
+  text-decoration:none;
+}
+#tooltips a {
+text-decoration:none;
+color:#f00;
+font-size: 12px;
+position:absolute;
+right:5px;
+top:2px;
+}
+#tooltips a:hover {
+  text-decoration:underline;
+}
+#funcs {
+  clear:both;
+}
+#funcs div {
+float:left;
+border:1px solid #aaa;
+margin:3px;
+padding:2px;
+width:24%;
+}
+#funcs div span {
+background-color:#bbb;
+margin:1px;
+padding:0 2px;
+float:left;	
+}
+
+#copy {
+	position:fixed;
+	top:4px;
+	right:4px;
+	color:#ddd;
+	z-index:4000;
+	font-size:small;
+}
