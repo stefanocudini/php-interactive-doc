@@ -16,11 +16,11 @@
 
 <div>
 <form id="editor">
-
+<h2>PHP docs</h2>
   <div style="float:left">
 	  <div class="opts first">
 		  <label>Funzione:
-		  <input id="code" name="code" type="text" maxlength="50" />
+		  <input id="code" name="code" type="text" maxlength="50" placeholder="Type a function" />
 		  </label>
 	  </div>	  
 	  <div class="opts">
